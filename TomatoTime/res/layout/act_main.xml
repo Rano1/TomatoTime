@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- <view -->
+    <!-- android:id="@+id/action_bar" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentTop="true" -->
+    <!-- class="com.pomotodo.views.actionbar.ProcessActionBar" /> -->
+
+
+    <!-- <com.pomotodo.views.PagerSlidingTabStrip -->
+    <!-- android:id="@+id/tabs" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="@dimen/sliding_tap_height" -->
+    <!-- android:layout_below="@id/action_bar" -->
+    <!-- android:background="#fff8f8f8" /> -->
+
+
+    <!-- <view -->
+    <!-- android:id="@+id/pager" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:layout_below="@id/tabs" -->
+    <!-- class="com.pomotodo.views.calendar.CustomMainViewPager" /> -->
+
+    <com.time.tomato.view.ToastViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <!-- <View -->
+    <!-- android:id="@+id/actionbar_shadow" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="@dimen/action_bar_shadow_height" -->
+    <!-- android:layout_below="@id/action_bar" -->
+    <!-- android:background="#ffdcdcdc" /> -->
+
+
+    <!-- <com.pomotodo.views.fr.castorflex.android.smoothprogressbar.SmoothProgressBar -->
+    <!-- xmlns:android="http://schemas.android.com/apk/res/android" -->
+    <!-- xmlns:app="http://schemas.android.com/apk/res-auto" -->
+    <!-- android:id="@+id/top_progressBar" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="2.0dip" -->
+    <!-- android:layout_alignParentBottom="false" -->
+    <!-- android:layout_below="@id/action_bar" -->
+    <!-- android:indeterminate="true" -->
+    <!-- android:visibility="gone" -->
+    <!-- app:spb_color="#ffff0033" -->
+    <!-- app:spb_mirror_mode="false" -->
+    <!-- app:spb_reversed="false" -->
+    <!-- app:spb_sections_count="6" -->
+    <!-- app:spb_speed="1.0" -->
+    <!-- app:spb_stroke_separator_length="4.0dip" -->
+    <!-- app:spb_stroke_width="4.0dip" /> -->
+
+
+    <!-- <com.nhaarman.supertooltips.ToolTipRelativeLayout -->
+    <!-- android:id="@+id/activity_main_tooltipRelativeLayout" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="fill_parent" /> -->
+
+</RelativeLayout>
