@@ -10,7 +10,6 @@
     <color name="important_two">#ff4468a9</color>
     <color name="list_view_background">#fff4f4f4</color>
     <color name="list_view_pressed">#ffd6d6d6</color>
-    <color name="spb_default_color">#ff33b5e5</color>
     <color name="stat_fragment_bg">#fff4f4f4</color>
     <color name="todo_tag_color">#ff4183c4</color>
     <color name="todo_text_checked">#ff9b9b9b</color>

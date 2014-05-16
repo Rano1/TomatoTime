@@ -23,6 +23,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service android:name="com.time.tomato.service.AutoService" >
+            <intent-filter>
+                <action android:name="com.intent.service.autoservice" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
     </application>
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
 </manifest>

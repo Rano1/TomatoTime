@@ -8,6 +8,10 @@ import com.time.tomato.entity.ToastEntity;
  * 常量类
  */
 public class Constants {
+	
+	/** 土豆服务对应的ACTION */
+	public final static String INTENT_AUTOSERVICE = "com.intent.service.autoservice";
+	
 	/**
 	 * 获取Toast列表
 	 */

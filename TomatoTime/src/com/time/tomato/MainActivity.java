@@ -7,16 +7,24 @@ import com.time.tomato.base.BaseActivity;
 import com.time.tomato.fragment.HistoryFragment;
 import com.time.tomato.fragment.StatisticalFragment;
 import com.time.tomato.fragment.TodoListFragment;
+import com.time.tomato.tools.Constants;
+import com.time.tomato.view.ProcessActionBar;
 import com.time.tomato.view.ToastViewPager;
+import com.time.tomato.view.smoothprogressbar.SmoothProgressBar;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
+import android.util.Log;
 import android.view.Menu;
+import android.view.View;
 
 public class MainActivity extends FragmentActivity {
+	private final static String TAG = "MainActivity";
 	private ToastViewPager pager;
 	private ToastPagerAdapter mAdapter;
 	private FragmentManager fm;
@@ -24,6 +32,9 @@ public class MainActivity extends FragmentActivity {
 	private HistoryFragment mHistoryFragment;
 	private StatisticalFragment mStatisticalFragment;
 	private ArrayList<Fragment> fragmentList;
+	private SmoothProgressBar top_progressBar;
+	private View actionbar_shadow;
+	private ProcessActionBar action_bar;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -31,6 +42,14 @@ public class MainActivity extends FragmentActivity {
 		initFragment();
 		initView();
 		initViewPager();
+		new Handler().postDelayed(new Runnable() {
+			
+			@Override
+			public void run() {
+				top_progressBar.setVisibility(View.GONE);
+				actionbar_shadow.setVisibility(View.VISIBLE);
+			}
+		}, 2000);
 	}
 
 	private void initFragment() {
@@ -50,7 +69,12 @@ public class MainActivity extends FragmentActivity {
 	}
 	
 	private void initView() {
+		action_bar = (ProcessActionBar)findViewById(R.id.action_bar);
 		pager = (ToastViewPager) findViewById(R.id.pager);
+		top_progressBar = (SmoothProgressBar)findViewById(R.id.top_progressBar);
+		actionbar_shadow = (View)findViewById(R.id.actionbar_shadow);
+		actionbar_shadow.setVisibility(View.GONE);
+		top_progressBar.setVisibility(View.VISIBLE);
 	}
 
 	@Override
@@ -60,4 +84,12 @@ public class MainActivity extends FragmentActivity {
 		return true;
 	}
 
+	@Override
+	protected void onDestroy() {
+		// TODO Auto-generated method stub
+		super.onDestroy();
+		Log.d(TAG, "onDestroy");
+		//退出时候关闭服务
+		stopService(new Intent(Constants.INTENT_AUTOSERVICE));
+	}
 }

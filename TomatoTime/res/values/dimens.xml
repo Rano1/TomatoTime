@@ -17,7 +17,5 @@
     <dimen name="marginLeft">8.0dip</dimen>
     <dimen name="marginRight">8.0dip</dimen>
     <dimen name="sliding_tap_height">45.0dip</dimen>
-    <dimen name="spb_default_stroke_separator_length">4.0dip</dimen>
-    <dimen name="spb_default_stroke_width">2.0dip</dimen>
 
 </resources>

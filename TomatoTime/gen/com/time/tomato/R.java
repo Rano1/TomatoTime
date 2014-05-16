@@ -9,52 +9,175 @@ package com.time.tomato;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int spbStyle=0x7f010000;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int spb_background=0x7f01000d;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_color=0x7f010001;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int spb_colors=0x7f01000b;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_generate_background_with_colors=0x7f01000e;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>spb_interpolator_accelerate</code></td><td>0</td><td></td></tr>
+<tr><td><code>spb_interpolator_linear</code></td><td>1</td><td></td></tr>
+<tr><td><code>spb_interpolator_acceleratedecelerate</code></td><td>2</td><td></td></tr>
+<tr><td><code>spb_interpolator_decelerate</code></td><td>3</td><td></td></tr>
+</table>
+         */
+        public static final int spb_interpolator=0x7f010008;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_mirror_mode=0x7f01000a;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_progressiveStart_activated=0x7f01000c;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_progressiveStart_speed=0x7f010006;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_progressiveStop_speed=0x7f010007;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_reversed=0x7f010009;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_sections_count=0x7f010004;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_speed=0x7f010005;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_stroke_separator_length=0x7f010003;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spb_stroke_width=0x7f010002;
+    }
+    public static final class bool {
+        public static final int spb_default_mirror_mode=0x7f090001;
+        public static final int spb_default_progressiveStart_activated=0x7f090002;
+        public static final int spb_default_reversed=0x7f090000;
     }
     public static final class color {
-        public static final int action_bar_background=0x7f040000;
-        public static final int actionbar_text=0x7f040001;
-        public static final int background_tab_pressed=0x7f040002;
-        public static final int important_five=0x7f040003;
-        public static final int important_four=0x7f040004;
-        public static final int important_one=0x7f040005;
-        public static final int important_three=0x7f040006;
-        public static final int important_two=0x7f040007;
-        public static final int list_view_background=0x7f040008;
-        public static final int list_view_pressed=0x7f040009;
-        public static final int spb_default_color=0x7f04000a;
-        public static final int stat_fragment_bg=0x7f04000b;
-        public static final int todo_tag_color=0x7f04000c;
-        public static final int todo_text_checked=0x7f04000d;
-        public static final int todo_text_unchecked=0x7f04000e;
-        public static final int week_picker_selected=0x7f04000f;
-        public static final int week_picker_unselected=0x7f040010;
+        public static final int action_bar_background=0x7f050000;
+        public static final int actionbar_text=0x7f050001;
+        public static final int background_tab_pressed=0x7f050002;
+        public static final int important_five=0x7f050003;
+        public static final int important_four=0x7f050004;
+        public static final int important_one=0x7f050005;
+        public static final int important_three=0x7f050006;
+        public static final int important_two=0x7f050007;
+        public static final int list_view_background=0x7f050008;
+        public static final int list_view_pressed=0x7f050009;
+        public static final int spb_default_color=0x7f050010;
+        public static final int stat_fragment_bg=0x7f05000a;
+        public static final int todo_tag_color=0x7f05000b;
+        public static final int todo_text_checked=0x7f05000c;
+        public static final int todo_text_unchecked=0x7f05000d;
+        public static final int week_picker_selected=0x7f05000e;
+        public static final int week_picker_unselected=0x7f05000f;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
          */
-        public static final int action_bar_height=0x7f050000;
-        public static final int action_bar_shadow_height=0x7f050001;
+        public static final int action_bar_height=0x7f060002;
+        public static final int action_bar_shadow_height=0x7f060003;
         /** 
          Customize dimensions originally defined in res/values/dimens.xml (such as
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f050002;
-        public static final int activity_vertical_margin=0x7f050003;
-        public static final int bar_view_left_margin=0x7f050004;
-        public static final int bg_tooltip_padding_bottom=0x7f050005;
-        public static final int bg_tooltip_padding_left=0x7f050006;
-        public static final int bg_tooltip_padding_right=0x7f050007;
-        public static final int bg_tooltip_padding_top=0x7f050008;
-        public static final int bg_tooltip_pointer_padding_bottom=0x7f050009;
-        public static final int history_side_padding=0x7f05000a;
-        public static final int intro_btn_margin=0x7f05000b;
-        public static final int marginBottom=0x7f05000c;
-        public static final int marginLeft=0x7f05000d;
-        public static final int marginRight=0x7f05000e;
-        public static final int sliding_tap_height=0x7f05000f;
-        public static final int spb_default_stroke_separator_length=0x7f050010;
-        public static final int spb_default_stroke_width=0x7f050011;
+        public static final int activity_horizontal_margin=0x7f060004;
+        public static final int activity_vertical_margin=0x7f060005;
+        public static final int bar_view_left_margin=0x7f060006;
+        public static final int bg_tooltip_padding_bottom=0x7f060007;
+        public static final int bg_tooltip_padding_left=0x7f060008;
+        public static final int bg_tooltip_padding_right=0x7f060009;
+        public static final int bg_tooltip_padding_top=0x7f06000a;
+        public static final int bg_tooltip_pointer_padding_bottom=0x7f06000b;
+        public static final int history_side_padding=0x7f06000c;
+        public static final int intro_btn_margin=0x7f06000d;
+        public static final int marginBottom=0x7f06000e;
+        public static final int marginLeft=0x7f06000f;
+        public static final int marginRight=0x7f060010;
+        public static final int sliding_tap_height=0x7f060011;
+        public static final int spb_default_stroke_separator_length=0x7f060000;
+        public static final int spb_default_stroke_width=0x7f060001;
     }
     public static final class drawable {
         public static final int actionbar_shadow=0x7f020000;
@@ -78,61 +201,71 @@ public final class R {
         public static final int ic_action_previous_item=0x7f020012;
         public static final int ic_action_undo=0x7f020013;
         public static final int ic_launcher=0x7f020014;
-        public static final int listview_bg=0x7f020015;
-        public static final int login_input=0x7f020016;
-        public static final int pin_checkbox=0x7f020017;
-        public static final int pin_checked=0x7f020018;
-        public static final int pin_unchecked=0x7f020019;
-        public static final int popup_red=0x7f02001a;
-        public static final int progress_bg_pomo=0x7f02001b;
-        public static final int progress_primary_pomo=0x7f02001c;
-        public static final int progress_secondary_pomo=0x7f02001d;
-        public static final int segment_radio_grey_left=0x7f02001e;
-        public static final int segment_radio_grey_left_press=0x7f02001f;
-        public static final int segment_radio_grey_right=0x7f020020;
-        public static final int segment_radio_grey_right_press=0x7f020021;
-        public static final int segment_radio_white_left=0x7f020022;
-        public static final int segment_radio_white_left_press=0x7f020023;
-        public static final int segment_radio_white_right=0x7f020024;
-        public static final int segment_radio_white_right_press=0x7f020025;
-        public static final int widget_preview=0x7f020026;
+        public static final int ic_stat_notify_msg=0x7f020015;
+        public static final int listview_bg=0x7f020016;
+        public static final int login_input=0x7f020017;
+        public static final int pin_checkbox=0x7f020018;
+        public static final int pin_checked=0x7f020019;
+        public static final int pin_unchecked=0x7f02001a;
+        public static final int popup_red=0x7f02001b;
+        public static final int progress_bg_pomo=0x7f02001c;
+        public static final int progress_primary_pomo=0x7f02001d;
+        public static final int progress_secondary_pomo=0x7f02001e;
+        public static final int segment_radio_grey_left=0x7f02001f;
+        public static final int segment_radio_grey_left_press=0x7f020020;
+        public static final int segment_radio_grey_right=0x7f020021;
+        public static final int segment_radio_grey_right_press=0x7f020022;
+        public static final int segment_radio_white_left=0x7f020023;
+        public static final int segment_radio_white_left_press=0x7f020024;
+        public static final int segment_radio_white_right=0x7f020025;
+        public static final int segment_radio_white_right_press=0x7f020026;
+        public static final int widget_preview=0x7f020027;
     }
     public static final class id {
-        public static final int action_bar=0x7f090000;
-        public static final int action_settings=0x7f090022;
-        public static final int actionbar_shadow=0x7f090001;
-        public static final int btn_middle=0x7f090021;
-        public static final int btn_pin=0x7f09001a;
-        public static final int checkBox_cir=0x7f09000a;
-        public static final int checkBox_pin=0x7f090018;
-        public static final int fragment_todo=0x7f090007;
-        public static final int history_empty_layout=0x7f090004;
-        public static final int ib_right=0x7f09001e;
-        public static final int ib_setting=0x7f09001f;
-        public static final int imageView=0x7f090005;
-        public static final int important_color=0x7f090019;
-        public static final int layout_row=0x7f090009;
-        public static final int linearLayout=0x7f090010;
-        public static final int logo=0x7f090020;
-        public static final int lv_list=0x7f090008;
-        public static final int main_layout=0x7f09000f;
-        public static final int pager=0x7f090003;
-        public static final int processbar=0x7f09001b;
-        public static final int right_btn_layout=0x7f09001d;
-        public static final int right_high_light=0x7f090015;
-        public static final int tabs=0x7f090002;
-        public static final int textView=0x7f09000c;
-        public static final int textView2=0x7f090012;
-        public static final int todo_delete=0x7f09000b;
-        public static final int tv_countdown=0x7f09001c;
-        public static final int tv_from=0x7f090011;
-        public static final int tv_not_find=0x7f090006;
-        public static final int tv_pomo_description=0x7f090014;
-        public static final int tv_section_row=0x7f09000d;
-        public static final int tv_section_row_right=0x7f09000e;
-        public static final int tv_to=0x7f090013;
-        public static final int undo_row_texttv=0x7f090016;
-        public static final int undo_row_undobutton=0x7f090017;
+        public static final int action_bar=0x7f040004;
+        public static final int action_settings=0x7f040027;
+        public static final int actionbar_shadow=0x7f040005;
+        public static final int btn_middle=0x7f040026;
+        public static final int btn_pin=0x7f04001f;
+        public static final int checkBox_cir=0x7f04000f;
+        public static final int checkBox_pin=0x7f04001d;
+        public static final int fragment_todo=0x7f04000c;
+        public static final int history_empty_layout=0x7f040009;
+        public static final int ib_right=0x7f040023;
+        public static final int ib_setting=0x7f040024;
+        public static final int imageView=0x7f04000a;
+        public static final int important_color=0x7f04001e;
+        public static final int layout_row=0x7f04000e;
+        public static final int linearLayout=0x7f040015;
+        public static final int logo=0x7f040025;
+        public static final int lv_list=0x7f04000d;
+        public static final int main_layout=0x7f040014;
+        public static final int pager=0x7f040008;
+        public static final int processbar=0x7f040020;
+        public static final int right_btn_layout=0x7f040022;
+        public static final int right_high_light=0x7f04001a;
+        public static final int spb_interpolator_accelerate=0x7f040000;
+        public static final int spb_interpolator_acceleratedecelerate=0x7f040002;
+        public static final int spb_interpolator_decelerate=0x7f040003;
+        public static final int spb_interpolator_linear=0x7f040001;
+        public static final int tabs=0x7f040007;
+        public static final int textView=0x7f040011;
+        public static final int textView2=0x7f040017;
+        public static final int todo_delete=0x7f040010;
+        public static final int top_progressBar=0x7f040006;
+        public static final int tv_countdown=0x7f040021;
+        public static final int tv_from=0x7f040016;
+        public static final int tv_not_find=0x7f04000b;
+        public static final int tv_pomo_description=0x7f040019;
+        public static final int tv_section_row=0x7f040012;
+        public static final int tv_section_row_right=0x7f040013;
+        public static final int tv_to=0x7f040018;
+        public static final int undo_row_texttv=0x7f04001b;
+        public static final int undo_row_undobutton=0x7f04001c;
+    }
+    public static final class integer {
+        public static final int spb_default_interpolator=0x7f070001;
+        public static final int spb_default_sections_count=0x7f070000;
     }
     public static final class layout {
         public static final int act_main=0x7f030000;
@@ -149,199 +282,200 @@ public final class R {
         public static final int process_actionbar=0x7f03000b;
     }
     public static final class menu {
-        public static final int main=0x7f080000;
+        public static final int main=0x7f0b0000;
     }
     public static final class string {
-        public static final int action_search=0x7f060000;
-        public static final int add_new_todo=0x7f060001;
-        public static final int afternoon=0x7f060002;
-        public static final int app_name=0x7f060003;
-        public static final int app_up_to_date=0x7f060004;
-        public static final int april=0x7f060005;
-        public static final int august=0x7f060006;
-        public static final int best_work_day=0x7f060007;
-        public static final int best_work_day_summary=0x7f060008;
-        public static final int best_work_time=0x7f060009;
-        public static final int best_work_time_summary=0x7f06000a;
-        public static final int break_finish_dialog_btn=0x7f06000b;
-        public static final int break_finish_dialog_msg=0x7f06000c;
-        public static final int break_finish_dialog_title=0x7f06000d;
-        public static final int break_finished=0x7f06000e;
-        public static final int break_is_running=0x7f06000f;
-        public static final int check_error=0x7f060010;
-        public static final int check_server_error=0x7f060011;
-        public static final int check_update=0x7f060012;
-        public static final int click_to_return=0x7f060013;
-        public static final int click_to_submit_pomo=0x7f060014;
-        public static final int count_pomos_finished=0x7f060015;
-        public static final int count_todos_finished=0x7f060016;
-        public static final int daily_average=0x7f060017;
-        public static final int december=0x7f060018;
-        public static final int detect_is_miphone=0x7f060019;
-        public static final int download_negative_button=0x7f06001a;
-        public static final int download_now=0x7f06001b;
-        public static final int download_progress=0x7f06001c;
-        public static final int download_success=0x7f06001d;
-        public static final int downloading_pomotodo=0x7f06001e;
-        public static final int edit_history_pomo=0x7f06001f;
-        public static final int edit_todo=0x7f060020;
-        public static final int email=0x7f060021;
-        public static final int email_bad=0x7f060022;
-        public static final int enable_ticking_sound=0x7f060023;
-        public static final int enter_your_email=0x7f060024;
-        public static final int error_bad_email=0x7f060025;
-        public static final int error_bad_password=0x7f060026;
-        public static final int error_bad_username=0x7f060027;
-        public static final int error_no_account=0x7f060028;
-        public static final int error_unavailable_email=0x7f060029;
-        public static final int error_unavailable_username=0x7f06002a;
-        public static final int error_unknown_username=0x7f06002b;
-        public static final int error_wrong_password=0x7f06002c;
-        public static final int february=0x7f06002d;
-        public static final int feedback=0x7f06002e;
-        public static final int forgot_your_password=0x7f06002f;
-        public static final int friday=0x7f060030;
-        public static final int friday_full=0x7f060031;
-        public static final int friday_single=0x7f060032;
-        public static final int give_up_pomo=0x7f060033;
-        public static final int intro_btn_get_started=0x7f060034;
-        public static final int intro_first_content=0x7f060035;
-        public static final int intro_first_title=0x7f060036;
-        public static final int intro_second_content=0x7f060037;
-        public static final int intro_second_title=0x7f060038;
-        public static final int intro_third_content=0x7f060039;
-        public static final int intro_third_title=0x7f06003a;
-        public static final int item_deleted=0x7f06003b;
-        public static final int january=0x7f06003c;
-        public static final int july=0x7f06003d;
-        public static final int june=0x7f06003e;
-        public static final int lock_info=0x7f06003f;
-        public static final int login=0x7f060040;
-        public static final int login_success=0x7f060041;
-        public static final int logout_confirm_btn=0x7f060042;
-        public static final int logout_confirm_title=0x7f060043;
-        public static final int logout_confirm_title_msg=0x7f060044;
-        public static final int logout_success=0x7f060045;
-        public static final int march=0x7f060046;
-        public static final int may=0x7f060047;
-        public static final int menu_delete=0x7f060048;
-        public static final int menu_edit=0x7f060049;
-        public static final int menu_feedback=0x7f06004a;
-        public static final int menu_help=0x7f06004b;
-        public static final int menu_setting=0x7f06004c;
-        public static final int menu_share=0x7f06004d;
-        public static final int midnight=0x7f06004e;
-        public static final int miphone_message=0x7f06004f;
-        public static final int monday=0x7f060050;
-        public static final int monday_full=0x7f060051;
-        public static final int monday_single=0x7f060052;
-        public static final int monthly_growth=0x7f060053;
-        public static final int morning=0x7f060054;
-        public static final int new_update_available=0x7f060055;
-        public static final int night=0x7f060056;
-        public static final int noon=0x7f060057;
-        public static final int not_find_finished_todo=0x7f060058;
-        public static final int not_find_history=0x7f060059;
-        public static final int noti_give_up=0x7f06005a;
-        public static final int november=0x7f06005b;
-        public static final int occur_error=0x7f06005c;
-        public static final int october=0x7f06005d;
-        public static final int password=0x7f06005e;
-        public static final int password_should_not_empty=0x7f06005f;
-        public static final int pined_todo_will_show_here=0x7f060060;
-        public static final int play_ticking_sound=0x7f060061;
-        public static final int please_wait=0x7f060062;
-        public static final int pomo_finish_dialog_btn=0x7f060063;
-        public static final int pomo_finish_dialog_msg=0x7f060064;
-        public static final int pomo_finish_dialog_title=0x7f060065;
-        public static final int pomo_finished=0x7f060066;
-        public static final int pomo_has_finished=0x7f060067;
-        public static final int pomo_is_running=0x7f060068;
-        public static final int pomodoro_finished=0x7f060069;
-        public static final int pomotodo_is_running=0x7f06006a;
-        public static final int pref_already_login=0x7f06006b;
-        public static final int pref_block_apps=0x7f06006c;
-        public static final int pref_block_apps_summary=0x7f06006d;
-        public static final int pref_default_notifi_sound=0x7f06006e;
-        public static final int pref_enable_notification_sound=0x7f06006f;
-        public static final int pref_enable_vibrations=0x7f060070;
-        public static final int pref_enable_xiaomi_mode=0x7f060071;
-        public static final int pref_enable_xiaomi_mode_summary=0x7f060072;
-        public static final int pref_login_register=0x7f060073;
-        public static final int pref_logout=0x7f060074;
-        public static final int pref_more=0x7f060075;
-        public static final int pref_notif_sound=0x7f060076;
-        public static final int pref_one_min_mode=0x7f060077;
-        public static final int pref_one_min_mode_summary=0x7f060078;
-        public static final int pref_other=0x7f060079;
-        public static final int pref_pomodoro_duration=0x7f06007a;
-        public static final int pref_rate_us=0x7f06007b;
-        public static final int pref_ringtone_silent=0x7f06007c;
-        public static final int pref_sync_over_wifi_only=0x7f06007d;
-        public static final int pref_timer=0x7f06007e;
-        public static final int pref_tips=0x7f06007f;
-        public static final int pref_user=0x7f060080;
-        public static final int pull_to_back=0x7f060081;
-        public static final int pull_to_refresh_footer_pull_label=0x7f060082;
-        public static final int pull_to_refresh_footer_refreshing_label=0x7f060083;
-        public static final int pull_to_refresh_footer_release_label=0x7f060084;
-        public static final int pull_to_release_back=0x7f060085;
-        public static final int register=0x7f060086;
-        public static final int register_success=0x7f060087;
-        public static final int saturday=0x7f060088;
-        public static final int saturday_full=0x7f060089;
-        public static final int saturday_single=0x7f06008a;
-        public static final int september=0x7f06008b;
-        public static final int server_error=0x7f06008c;
-        public static final int share_title=0x7f06008d;
-        public static final int share_to=0x7f06008e;
-        public static final int start=0x7f06008f;
-        public static final int stop=0x7f060090;
-        public static final int stop_break_msg=0x7f060091;
-        public static final int stop_break_title=0x7f060092;
-        public static final int stop_pomo_msg=0x7f060093;
-        public static final int stop_pomo_title=0x7f060094;
-        public static final int submit=0x7f060095;
-        public static final int submit_success=0x7f060096;
-        public static final int sunday=0x7f060097;
-        public static final int sunday_full=0x7f060098;
-        public static final int sunday_single=0x7f060099;
-        public static final int sync_error_please_check_network=0x7f06009a;
-        public static final int sync_success=0x7f06009b;
-        public static final int tap_to_undo=0x7f06009c;
-        public static final int thursday=0x7f06009d;
-        public static final int thursday_full=0x7f06009e;
-        public static final int thursday_single=0x7f06009f;
-        public static final int tick_sound_disabled=0x7f0600a0;
-        public static final int tick_sound_enabled=0x7f0600a1;
-        public static final int title_activity_block_apps_setting=0x7f0600a2;
-        public static final int title_activity_finished_todo=0x7f0600a3;
-        public static final int title_activity_intro=0x7f0600a4;
-        public static final int title_activity_lock=0x7f0600a5;
-        public static final int title_activity_login=0x7f0600a6;
-        public static final int title_activity_pomo_finished=0x7f0600a7;
-        public static final int title_activity_running=0x7f0600a8;
-        public static final int title_activity_setting=0x7f0600a9;
-        public static final int title_section_history=0x7f0600aa;
-        public static final int title_section_stat=0x7f0600ab;
-        public static final int title_section_todo=0x7f0600ac;
-        public static final int today_finished_count_pomos=0x7f0600ad;
-        public static final int today_no_pomos=0x7f0600ae;
-        public static final int today_no_pomos_subtitle=0x7f0600af;
-        public static final int todo=0x7f0600b0;
-        public static final int todo_is_empty_error=0x7f0600b1;
-        public static final int total_pomodoros=0x7f0600b2;
-        public static final int tuesday=0x7f0600b3;
-        public static final int tuesday_full=0x7f0600b4;
-        public static final int tuesday_single=0x7f0600b5;
-        public static final int username=0x7f0600b6;
-        public static final int username_should_not_empty=0x7f0600b7;
-        public static final int was_deleted=0x7f0600b8;
-        public static final int wednesday=0x7f0600b9;
-        public static final int wednesday_full=0x7f0600ba;
-        public static final int wednesday_single=0x7f0600bb;
-        public static final int wee_hours=0x7f0600bc;
-        public static final int what_have_you_just_done=0x7f0600bd;
+        public static final int action_search=0x7f080001;
+        public static final int add_new_todo=0x7f080002;
+        public static final int afternoon=0x7f080003;
+        public static final int app_name=0x7f080004;
+        public static final int app_up_to_date=0x7f080005;
+        public static final int april=0x7f080006;
+        public static final int august=0x7f080007;
+        public static final int best_work_day=0x7f080008;
+        public static final int best_work_day_summary=0x7f080009;
+        public static final int best_work_time=0x7f08000a;
+        public static final int best_work_time_summary=0x7f08000b;
+        public static final int break_finish_dialog_btn=0x7f08000c;
+        public static final int break_finish_dialog_msg=0x7f08000d;
+        public static final int break_finish_dialog_title=0x7f08000e;
+        public static final int break_finished=0x7f08000f;
+        public static final int break_is_running=0x7f080010;
+        public static final int check_error=0x7f080011;
+        public static final int check_server_error=0x7f080012;
+        public static final int check_update=0x7f080013;
+        public static final int click_to_return=0x7f080014;
+        public static final int click_to_submit_pomo=0x7f080015;
+        public static final int count_pomos_finished=0x7f080016;
+        public static final int count_todos_finished=0x7f080017;
+        public static final int daily_average=0x7f080018;
+        public static final int december=0x7f080019;
+        public static final int detect_is_miphone=0x7f08001a;
+        public static final int download_negative_button=0x7f08001b;
+        public static final int download_now=0x7f08001c;
+        public static final int download_progress=0x7f08001d;
+        public static final int download_success=0x7f08001e;
+        public static final int downloading_pomotodo=0x7f08001f;
+        public static final int edit_history_pomo=0x7f080020;
+        public static final int edit_todo=0x7f080021;
+        public static final int email=0x7f080022;
+        public static final int email_bad=0x7f080023;
+        public static final int enable_ticking_sound=0x7f080024;
+        public static final int enter_your_email=0x7f080025;
+        public static final int error_bad_email=0x7f080026;
+        public static final int error_bad_password=0x7f080027;
+        public static final int error_bad_username=0x7f080028;
+        public static final int error_no_account=0x7f080029;
+        public static final int error_unavailable_email=0x7f08002a;
+        public static final int error_unavailable_username=0x7f08002b;
+        public static final int error_unknown_username=0x7f08002c;
+        public static final int error_wrong_password=0x7f08002d;
+        public static final int february=0x7f08002e;
+        public static final int feedback=0x7f08002f;
+        public static final int forgot_your_password=0x7f080030;
+        public static final int friday=0x7f080031;
+        public static final int friday_full=0x7f080032;
+        public static final int friday_single=0x7f080033;
+        public static final int give_up_pomo=0x7f080034;
+        public static final int intro_btn_get_started=0x7f080035;
+        public static final int intro_first_content=0x7f080036;
+        public static final int intro_first_title=0x7f080037;
+        public static final int intro_second_content=0x7f080038;
+        public static final int intro_second_title=0x7f080039;
+        public static final int intro_third_content=0x7f08003a;
+        public static final int intro_third_title=0x7f08003b;
+        public static final int item_deleted=0x7f08003c;
+        public static final int january=0x7f08003d;
+        public static final int july=0x7f08003e;
+        public static final int june=0x7f08003f;
+        public static final int lock_info=0x7f080040;
+        public static final int login=0x7f080041;
+        public static final int login_success=0x7f080042;
+        public static final int logout_confirm_btn=0x7f080043;
+        public static final int logout_confirm_title=0x7f080044;
+        public static final int logout_confirm_title_msg=0x7f080045;
+        public static final int logout_success=0x7f080046;
+        public static final int march=0x7f080047;
+        public static final int may=0x7f080048;
+        public static final int menu_delete=0x7f080049;
+        public static final int menu_edit=0x7f08004a;
+        public static final int menu_feedback=0x7f08004b;
+        public static final int menu_help=0x7f08004c;
+        public static final int menu_setting=0x7f08004d;
+        public static final int menu_share=0x7f08004e;
+        public static final int midnight=0x7f08004f;
+        public static final int miphone_message=0x7f080050;
+        public static final int monday=0x7f080051;
+        public static final int monday_full=0x7f080052;
+        public static final int monday_single=0x7f080053;
+        public static final int monthly_growth=0x7f080054;
+        public static final int morning=0x7f080055;
+        public static final int new_update_available=0x7f080056;
+        public static final int night=0x7f080057;
+        public static final int noon=0x7f080058;
+        public static final int not_find_finished_todo=0x7f080059;
+        public static final int not_find_history=0x7f08005a;
+        public static final int noti_give_up=0x7f08005b;
+        public static final int november=0x7f08005c;
+        public static final int occur_error=0x7f08005d;
+        public static final int october=0x7f08005e;
+        public static final int password=0x7f08005f;
+        public static final int password_should_not_empty=0x7f080060;
+        public static final int pined_todo_will_show_here=0x7f080061;
+        public static final int play_ticking_sound=0x7f080062;
+        public static final int please_wait=0x7f080063;
+        public static final int pomo_finish_dialog_btn=0x7f080064;
+        public static final int pomo_finish_dialog_msg=0x7f080065;
+        public static final int pomo_finish_dialog_title=0x7f080066;
+        public static final int pomo_finished=0x7f080067;
+        public static final int pomo_has_finished=0x7f080068;
+        public static final int pomo_is_running=0x7f080069;
+        public static final int pomodoro_finished=0x7f08006a;
+        public static final int pomotodo_is_running=0x7f08006b;
+        public static final int pref_already_login=0x7f08006c;
+        public static final int pref_block_apps=0x7f08006d;
+        public static final int pref_block_apps_summary=0x7f08006e;
+        public static final int pref_default_notifi_sound=0x7f08006f;
+        public static final int pref_enable_notification_sound=0x7f080070;
+        public static final int pref_enable_vibrations=0x7f080071;
+        public static final int pref_enable_xiaomi_mode=0x7f080072;
+        public static final int pref_enable_xiaomi_mode_summary=0x7f080073;
+        public static final int pref_login_register=0x7f080074;
+        public static final int pref_logout=0x7f080075;
+        public static final int pref_more=0x7f080076;
+        public static final int pref_notif_sound=0x7f080077;
+        public static final int pref_one_min_mode=0x7f080078;
+        public static final int pref_one_min_mode_summary=0x7f080079;
+        public static final int pref_other=0x7f08007a;
+        public static final int pref_pomodoro_duration=0x7f08007b;
+        public static final int pref_rate_us=0x7f08007c;
+        public static final int pref_ringtone_silent=0x7f08007d;
+        public static final int pref_sync_over_wifi_only=0x7f08007e;
+        public static final int pref_timer=0x7f08007f;
+        public static final int pref_tips=0x7f080080;
+        public static final int pref_user=0x7f080081;
+        public static final int pull_to_back=0x7f080082;
+        public static final int pull_to_refresh_footer_pull_label=0x7f080083;
+        public static final int pull_to_refresh_footer_refreshing_label=0x7f080084;
+        public static final int pull_to_refresh_footer_release_label=0x7f080085;
+        public static final int pull_to_release_back=0x7f080086;
+        public static final int register=0x7f080087;
+        public static final int register_success=0x7f080088;
+        public static final int saturday=0x7f080089;
+        public static final int saturday_full=0x7f08008a;
+        public static final int saturday_single=0x7f08008b;
+        public static final int september=0x7f08008c;
+        public static final int server_error=0x7f08008d;
+        public static final int share_title=0x7f08008e;
+        public static final int share_to=0x7f08008f;
+        public static final int spb_default_speed=0x7f080000;
+        public static final int start=0x7f080090;
+        public static final int stop=0x7f080091;
+        public static final int stop_break_msg=0x7f080092;
+        public static final int stop_break_title=0x7f080093;
+        public static final int stop_pomo_msg=0x7f080094;
+        public static final int stop_pomo_title=0x7f080095;
+        public static final int submit=0x7f080096;
+        public static final int submit_success=0x7f080097;
+        public static final int sunday=0x7f080098;
+        public static final int sunday_full=0x7f080099;
+        public static final int sunday_single=0x7f08009a;
+        public static final int sync_error_please_check_network=0x7f08009b;
+        public static final int sync_success=0x7f08009c;
+        public static final int tap_to_undo=0x7f08009d;
+        public static final int thursday=0x7f08009e;
+        public static final int thursday_full=0x7f08009f;
+        public static final int thursday_single=0x7f0800a0;
+        public static final int tick_sound_disabled=0x7f0800a1;
+        public static final int tick_sound_enabled=0x7f0800a2;
+        public static final int title_activity_block_apps_setting=0x7f0800a3;
+        public static final int title_activity_finished_todo=0x7f0800a4;
+        public static final int title_activity_intro=0x7f0800a5;
+        public static final int title_activity_lock=0x7f0800a6;
+        public static final int title_activity_login=0x7f0800a7;
+        public static final int title_activity_pomo_finished=0x7f0800a8;
+        public static final int title_activity_running=0x7f0800a9;
+        public static final int title_activity_setting=0x7f0800aa;
+        public static final int title_section_history=0x7f0800ab;
+        public static final int title_section_stat=0x7f0800ac;
+        public static final int title_section_todo=0x7f0800ad;
+        public static final int today_finished_count_pomos=0x7f0800ae;
+        public static final int today_no_pomos=0x7f0800af;
+        public static final int today_no_pomos_subtitle=0x7f0800b0;
+        public static final int todo=0x7f0800b1;
+        public static final int todo_is_empty_error=0x7f0800b2;
+        public static final int total_pomodoros=0x7f0800b3;
+        public static final int tuesday=0x7f0800b4;
+        public static final int tuesday_full=0x7f0800b5;
+        public static final int tuesday_single=0x7f0800b6;
+        public static final int username=0x7f0800b7;
+        public static final int username_should_not_empty=0x7f0800b8;
+        public static final int was_deleted=0x7f0800b9;
+        public static final int wednesday=0x7f0800ba;
+        public static final int wednesday_full=0x7f0800bb;
+        public static final int wednesday_single=0x7f0800bc;
+        public static final int wee_hours=0x7f0800bd;
+        public static final int what_have_you_just_done=0x7f0800be;
     }
     public static final class style {
         /** 
@@ -365,9 +499,263 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f0a0000;
         /**  Application theme. 
          */
-        public static final int AppTheme=0x7f070001;
+        public static final int AppTheme=0x7f0a0001;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a SmoothProgressBar.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spbStyle com.time.tomato:spbStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_background com.time.tomato:spb_background}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_color com.time.tomato:spb_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_colors com.time.tomato:spb_colors}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_generate_background_with_colors com.time.tomato:spb_generate_background_with_colors}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_interpolator com.time.tomato:spb_interpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_mirror_mode com.time.tomato:spb_mirror_mode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_progressiveStart_activated com.time.tomato:spb_progressiveStart_activated}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_progressiveStart_speed com.time.tomato:spb_progressiveStart_speed}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_progressiveStop_speed com.time.tomato:spb_progressiveStop_speed}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_reversed com.time.tomato:spb_reversed}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_sections_count com.time.tomato:spb_sections_count}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_speed com.time.tomato:spb_speed}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_stroke_separator_length com.time.tomato:spb_stroke_separator_length}</code></td><td></td></tr>
+           <tr><td><code>{@link #SmoothProgressBar_spb_stroke_width com.time.tomato:spb_stroke_width}</code></td><td></td></tr>
+           </table>
+           @see #SmoothProgressBar_spbStyle
+           @see #SmoothProgressBar_spb_background
+           @see #SmoothProgressBar_spb_color
+           @see #SmoothProgressBar_spb_colors
+           @see #SmoothProgressBar_spb_generate_background_with_colors
+           @see #SmoothProgressBar_spb_interpolator
+           @see #SmoothProgressBar_spb_mirror_mode
+           @see #SmoothProgressBar_spb_progressiveStart_activated
+           @see #SmoothProgressBar_spb_progressiveStart_speed
+           @see #SmoothProgressBar_spb_progressiveStop_speed
+           @see #SmoothProgressBar_spb_reversed
+           @see #SmoothProgressBar_spb_sections_count
+           @see #SmoothProgressBar_spb_speed
+           @see #SmoothProgressBar_spb_stroke_separator_length
+           @see #SmoothProgressBar_spb_stroke_width
+         */
+        public static final int[] SmoothProgressBar = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007,
+            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b,
+            0x7f01000c, 0x7f01000d, 0x7f01000e
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.time.tomato.R.attr#spbStyle}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.time.tomato:spbStyle
+        */
+        public static final int SmoothProgressBar_spbStyle = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.time.tomato.R.attr#spb_background}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.time.tomato:spb_background
+        */
+        public static final int SmoothProgressBar_spb_background = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.time.tomato.R.attr#spb_color}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.time.tomato:spb_color
+        */
+        public static final int SmoothProgressBar_spb_color = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.time.tomato.R.attr#spb_colors}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.time.tomato:spb_colors
+        */
+        public static final int SmoothProgressBar_spb_colors = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.time.tomato.R.attr#spb_generate_background_with_colors}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.time.tomato:spb_generate_background_with_colors
+        */
+        public static final int SmoothProgressBar_spb_generate_background_with_colors = 14;
+        /**
+          <p>This symbol is the offset where the {@link com.time.tomato.R.attr#spb_interpolator}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>spb_interpolator_accelerate</code></td><td>0</td><td></td></tr>
+<tr><td><code>spb_interpolator_linear</code></td><td>1</td><td></td></tr>
+<tr><td><code>spb_interpolator_acceleratedecelerate</code></td><td>2</td><td></td></tr>
+<tr><td><code>spb_interpolator_decelerate</code></td><td>3</td><td></td></tr>
+</table>
+          @attr name com.time.tomato:spb_interpolator
+        */
+        public static final int SmoothProgressBar_spb_interpolator = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.time.tomato.R.attr#spb_mirror_mode}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.time.tomato:spb_mirror_mode
+        */
+        public static final int SmoothProgressBar_spb_mirror_mode = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.time.tomato.R.attr#spb_progressiveStart_activated}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.time.tomato:spb_progressiveStart_activated
+        */
+        public static final int SmoothProgressBar_spb_progressiveStart_activated = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.time.tomato.R.attr#spb_progressiveStart_speed}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.time.tomato:spb_progressiveStart_speed
+        */
+        public static final int SmoothProgressBar_spb_progressiveStart_speed = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.time.tomato.R.attr#spb_progressiveStop_speed}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.time.tomato:spb_progressiveStop_speed
+        */
+        public static final int SmoothProgressBar_spb_progressiveStop_speed = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.time.tomato.R.attr#spb_reversed}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.time.tomato:spb_reversed
+        */
+        public static final int SmoothProgressBar_spb_reversed = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.time.tomato.R.attr#spb_sections_count}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.time.tomato:spb_sections_count
+        */
+        public static final int SmoothProgressBar_spb_sections_count = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.time.tomato.R.attr#spb_speed}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.time.tomato:spb_speed
+        */
+        public static final int SmoothProgressBar_spb_speed = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.time.tomato.R.attr#spb_stroke_separator_length}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.time.tomato:spb_stroke_separator_length
+        */
+        public static final int SmoothProgressBar_spb_stroke_separator_length = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.time.tomato.R.attr#spb_stroke_width}
+          attribute's value can be found in the {@link #SmoothProgressBar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.time.tomato:spb_stroke_width
+        */
+        public static final int SmoothProgressBar_spb_stroke_width = 2;
+    };
 }
