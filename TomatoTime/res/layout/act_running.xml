@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_running_scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff4f4f4" >
+
+    <RelativeLayout
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/top_layout_checked"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/card_background"
+            android:gravity="center_vertical"
+            android:paddingBottom="10.0dip"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:paddingTop="10.0dip" >
+
+            <CheckBox
+                android:id="@+id/cb_top_checked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/cir_checkbox"
+                android:checked="true"
+                android:paddingLeft="5.0dip" />
+
+            <TextView
+                android:id="@+id/top_tv_checked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:textColor="@color/todo_text_checked"
+                android:textSize="20.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/top_layout_unchecked"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/card_background"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10.0dip"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:paddingTop="10.0dip" >
+
+            <CheckBox
+                android:id="@+id/cb_top_unchecked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:button="@drawable/cir_checkbox"
+                android:checked="false"
+                android:clickable="false"
+                android:paddingLeft="5.0dip" />
+
+            <TextView
+                android:id="@+id/top_tv_unchecked"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:textColor="@color/todo_text_unchecked"
+                android:textSize="20.0sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/cir_checkbox"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/top_layout_unchecked"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/card_background"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="15.0dip" >
+
+<!--             <view -->
+<!--                 android:id="@+id/view_cir" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_marginBottom="15.0dip" -->
+<!--                 class="com.pomotodo.views.CircleView" /> -->
+
+            <TextView
+                android:id="@+id/tv_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:24"
+                android:textSize="39.0dip"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/layout_submit_tip"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5.0dip"
+                    android:text="@string/pomo_finished"
+                    android:textSize="22.0sp" />
+
+                <TextView
+                    android:id="@+id/click_tip_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/click_to_submit_pomo"
+                    android:textColor="#ff999999"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/activity_running_today_pomo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearLayout2"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="今日已完成 6 个番茄"
+            android:textColor="#ff999999" />
+
+<!--         <com.pomotodo.views.listview.ListViewForScrollView -->
+<!--             android:id="@+id/activity_running_list_view" -->
+<!--             android:layout_width="fill_parent" -->
+<!--             android:layout_height="fill_parent" -->
+<!--             android:layout_alignParentBottom="true" -->
+<!--             android:layout_alignParentTop="false" -->
+<!--             android:layout_below="@id/activity_running_today_pomo" /> -->
+
+        <LinearLayout
+            android:id="@+id/no_record_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/linearLayout2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18.0dip"
+                android:layout_marginTop="10.0dip"
+                android:src="@drawable/empty_running_view" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/today_no_pomos"
+                android:textColor="#ffaaaaaa"
+                android:textSize="16.0sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:text="@string/today_no_pomos_subtitle"
+                android:textColor="#ffaaaaaa" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

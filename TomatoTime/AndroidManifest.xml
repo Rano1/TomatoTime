@@ -23,6 +23,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".RunningActivity" >
+        </activity>
 
         <service android:name="com.time.tomato.service.AutoService" >
             <intent-filter>

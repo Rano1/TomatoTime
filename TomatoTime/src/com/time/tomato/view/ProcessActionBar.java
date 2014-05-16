@@ -2,10 +2,12 @@ package com.time.tomato.view;
 
 import android.view.View.OnClickListener;
 import com.time.tomato.R;
+import com.time.tomato.RunningActivity;
 import com.time.tomato.app.AppApplication;
 import com.time.tomato.tools.Constants;
 import com.time.tomato.tools.TomatoNotification;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.util.AttributeSet;
@@ -37,6 +39,7 @@ public class ProcessActionBar extends LinearLayout implements OnClickListener{
 		tv_countdown = (TextView)view.findViewById(R.id.tv_countdown);
 		btn_middle = (Button)view.findViewById(R.id.btn_middle);
 		ib_right = (ImageButton)view.findViewById(R.id.ib_right);
+		btn_middle.setOnClickListener(this);
 		ib_right.setOnClickListener(this);
 		addView(view,params);
 		initData();
@@ -50,7 +53,8 @@ public class ProcessActionBar extends LinearLayout implements OnClickListener{
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.btn_middle:
-			
+			getContext().startActivity(new Intent(getContext(), RunningActivity.class));
+			((Activity)getContext()).overridePendingTransition(R.anim.slide_top_in, 0);
 			break;
 		case R.id.ib_right:
 			if(isRunning){

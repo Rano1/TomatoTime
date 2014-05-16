@@ -22,7 +22,6 @@ public class AutoService extends Service {
 	private PowerManager.WakeLock mWakeLock;
 	public boolean isRunning = false;
 	private Timer timer;
-
 	/** µπº∆ ±¿‡ */
 	private CountDownTimer mCountDownTimer;
 

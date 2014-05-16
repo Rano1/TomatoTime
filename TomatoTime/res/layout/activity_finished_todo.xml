@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+<!--     <com.pomotodo.views.listview.FinishedPinnedSectionListView -->
+<!--         android:id="@+id/finished_todo_listview" -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="fill_parent" -->
+<!--         android:layout_gravity="center_horizontal" -->
+<!--         android:background="#ffffffff" -->
+<!--         android:divider="@android:color/transparent" /> -->
+
+    <LinearLayout
+        android:id="@+id/finished_todo_empty_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fff0f0f0"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/empty_finished_todo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35.0dip"
+            android:text="@string/not_find_finished_todo"
+            android:textColor="#ffaaaaaa"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+
+</RelativeLayout>
