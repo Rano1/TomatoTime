@@ -3,41 +3,31 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <!-- <view -->
-    <!-- android:id="@+id/action_bar" -->
-    <!-- android:layout_width="fill_parent" -->
-    <!-- android:layout_height="wrap_content" -->
-    <!-- android:layout_alignParentTop="true" -->
-    <!-- class="com.pomotodo.views.actionbar.ProcessActionBar" /> -->
+    <com.time.tomato.view.ProcessActionBar
+        android:id="@+id/action_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/action_bar_height"
+        android:layout_alignParentTop="true" />
 
+    <View
+        android:id="@+id/actionbar_shadow"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/action_bar_shadow_height"
+        android:layout_below="@id/action_bar"
+        android:background="#ffdcdcdc" />
 
-    <!-- <com.pomotodo.views.PagerSlidingTabStrip -->
-    <!-- android:id="@+id/tabs" -->
-    <!-- android:layout_width="fill_parent" -->
-    <!-- android:layout_height="@dimen/sliding_tap_height" -->
-    <!-- android:layout_below="@id/action_bar" -->
-    <!-- android:background="#fff8f8f8" /> -->
-
-
-    <!-- <view -->
-    <!-- android:id="@+id/pager" -->
-    <!-- android:layout_width="fill_parent" -->
-    <!-- android:layout_height="fill_parent" -->
-    <!-- android:layout_below="@id/tabs" -->
-    <!-- class="com.pomotodo.views.calendar.CustomMainViewPager" /> -->
+    <com.time.tomato.view.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/sliding_tap_height"
+        android:layout_below="@id/action_bar"
+        android:background="#fff8f8f8" />
 
     <com.time.tomato.view.ToastViewPager
         android:id="@+id/pager"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
-
-    <!-- <View -->
-    <!-- android:id="@+id/actionbar_shadow" -->
-    <!-- android:layout_width="fill_parent" -->
-    <!-- android:layout_height="@dimen/action_bar_shadow_height" -->
-    <!-- android:layout_below="@id/action_bar" -->
-    <!-- android:background="#ffdcdcdc" /> -->
-
+        android:layout_height="fill_parent"
+        android:layout_below="@id/tabs" />
 
     <!-- <com.pomotodo.views.fr.castorflex.android.smoothprogressbar.SmoothProgressBar -->
     <!-- xmlns:android="http://schemas.android.com/apk/res/android" -->

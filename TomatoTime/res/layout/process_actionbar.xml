@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/action_bar_height"
+    android:orientation="vertical" >
+
+    <com.time.tomato.view.BeneathProcessBar
+        android:id="@+id/processbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="25:00"
+        android:textColor="#ff4a494a"
+        android:textSize="20.0dip"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/right_btn_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/ib_right"
+            android:layout_width="55.0dip"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="false"
+            android:background="@drawable/background_tab"
+            android:padding="8.0dip"
+            android:src="@drawable/ic_action_play_red" />
+
+        <ImageButton
+            android:id="@+id/ib_setting"
+            android:layout_width="55.0dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_tab"
+            android:paddingBottom="8.0dip"
+            android:paddingTop="8.0dip"
+            android:src="@drawable/ic_action_overflow"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="32.0dip"
+        android:layout_height="32.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_action_bar_logo" />
+
+    <Button
+        android:id="@+id/btn_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/processbar"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/right_btn_layout"
+        android:layout_toRightOf="@id/logo"
+        android:alpha="0.0" />
+
+</RelativeLayout>

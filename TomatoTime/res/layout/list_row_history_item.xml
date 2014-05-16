@@ -70,15 +70,15 @@
             android:textSize="18.0sp" />
     </RelativeLayout>
 
-    <View
-        android:layout_width="0.0dip"
-        android:layout_height="0.0dip"
-        android:layout_alignBottom="@id/tv_pomo_description"
-        android:layout_alignLeft="@id/linearLayout"
-        android:layout_alignRight="@id/linearLayout"
-        android:layout_alignTop="@id/linearLayout"
-        android:background="#fffbfbfb"
-        android:visibility="visible" />
+<!--     <View -->
+<!--         android:layout_width="0.0dip" -->
+<!--         android:layout_height="0.0dip" -->
+<!--         android:layout_alignBottom="@id/tv_pomo_description" -->
+<!--         android:layout_alignLeft="@id/linearLayout" -->
+<!--         android:layout_alignRight="@id/linearLayout" -->
+<!--         android:layout_alignTop="@id/linearLayout" -->
+<!--         android:background="#fffbfbfb" -->
+<!--         android:visibility="visible" /> -->
 
     <View
         android:id="@+id/right_high_light"
