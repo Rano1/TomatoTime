@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * 土豆实体类
  */
-public class ToastEntity implements Serializable {
+public class TomatoEntity implements Serializable {
 	private static final long serialVersionUID = 7715082767404898634L;
 	/** 土豆id */
 	public Integer id;

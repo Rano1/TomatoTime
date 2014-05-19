@@ -2,14 +2,14 @@ package com.time.tomato;
 
 import java.util.ArrayList;
 
-import com.time.tomato.adapter.ToastPagerAdapter;
+import com.time.tomato.adapter.TomatoPagerAdapter;
 import com.time.tomato.base.BaseActivity;
 import com.time.tomato.fragment.HistoryFragment;
 import com.time.tomato.fragment.StatisticalFragment;
 import com.time.tomato.fragment.TodoListFragment;
 import com.time.tomato.tools.Constants;
 import com.time.tomato.view.ProcessActionBar;
-import com.time.tomato.view.ToastViewPager;
+import com.time.tomato.view.TomatoViewPager;
 import com.time.tomato.view.smoothprogressbar.SmoothProgressBar;
 
 import android.os.Bundle;
@@ -25,8 +25,8 @@ import android.view.View;
 
 public class MainActivity extends FragmentActivity {
 	private final static String TAG = "MainActivity";
-	private ToastViewPager pager;
-	private ToastPagerAdapter mAdapter;
+	private TomatoViewPager pager;
+	private TomatoPagerAdapter mAdapter;
 	private FragmentManager fm;
 	private TodoListFragment mTodoListFragment;
 	private HistoryFragment mHistoryFragment;
@@ -64,13 +64,13 @@ public class MainActivity extends FragmentActivity {
 	}
 	
 	private void initViewPager() {
-		mAdapter = new ToastPagerAdapter(fm , fragmentList);
+		mAdapter = new TomatoPagerAdapter(fm , fragmentList);
 		pager.setAdapter(mAdapter);
 	}
 	
 	private void initView() {
 		action_bar = (ProcessActionBar)findViewById(R.id.action_bar);
-		pager = (ToastViewPager) findViewById(R.id.pager);
+		pager = (TomatoViewPager) findViewById(R.id.pager);
 		top_progressBar = (SmoothProgressBar)findViewById(R.id.top_progressBar);
 		actionbar_shadow = (View)findViewById(R.id.actionbar_shadow);
 		actionbar_shadow.setVisibility(View.GONE);

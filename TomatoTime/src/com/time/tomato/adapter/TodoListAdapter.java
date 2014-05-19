@@ -3,7 +3,7 @@ package com.time.tomato.adapter;
 import java.util.ArrayList;
 
 import com.time.tomato.R;
-import com.time.tomato.entity.ToastEntity;
+import com.time.tomato.entity.TomatoEntity;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -13,11 +13,11 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 public class TodoListAdapter extends BaseAdapter {
-	ArrayList<ToastEntity> toastList;
+	ArrayList<TomatoEntity> toastList;
 	Activity activity;
 	LayoutInflater inflater = null;
 	
-	public TodoListAdapter(Activity activity , ArrayList<ToastEntity> toastList) {
+	public TodoListAdapter(Activity activity , ArrayList<TomatoEntity> toastList) {
 		this.activity = activity;
 		this.toastList = toastList;
 		inflater = LayoutInflater.from(activity);
@@ -30,7 +30,7 @@ public class TodoListAdapter extends BaseAdapter {
 	}
 
 	@Override
-	public ToastEntity getItem(int position) {
+	public TomatoEntity getItem(int position) {
 		if(toastList != null && toastList.size() !=0){
 			return toastList.get(position);
 		}
@@ -52,7 +52,7 @@ public class TodoListAdapter extends BaseAdapter {
 		TextView textView = (TextView)view.findViewById(R.id.textView);
 		View important_color = (View)view.findViewById(R.id.important_color);
 		
-		ToastEntity toast = getItem(position);
+		TomatoEntity toast = getItem(position);
 		textView.setText(toast.getContent());
 		if(toast.getIsImportant()){
 			important_color.setVisibility(View.VISIBLE);

@@ -8,16 +8,16 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentTransaction;
 import android.view.ViewGroup;
 
-public class ToastPagerAdapter extends FragmentPagerAdapter {
+public class TomatoPagerAdapter extends FragmentPagerAdapter {
 	private ArrayList<Fragment> fragments;
 	private FragmentManager fm;
 	
-	public ToastPagerAdapter(FragmentManager fm) {
+	public TomatoPagerAdapter(FragmentManager fm) {
 		super(fm);
 		this.fm = fm;
 	}
 	
-	public ToastPagerAdapter(FragmentManager fm,ArrayList<Fragment> fragments) {
+	public TomatoPagerAdapter(FragmentManager fm,ArrayList<Fragment> fragments) {
 		super(fm);
 		this.fm = fm;
 		this.fragments = fragments;

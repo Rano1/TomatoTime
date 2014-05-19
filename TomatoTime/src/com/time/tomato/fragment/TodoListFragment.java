@@ -12,14 +12,14 @@ import android.widget.ListView;
 import com.time.tomato.R;
 import com.time.tomato.adapter.TodoListAdapter;
 import com.time.tomato.base.BaseFragment;
-import com.time.tomato.entity.ToastEntity;
+import com.time.tomato.entity.TomatoEntity;
 import com.time.tomato.tools.Constants;
 
 /**
  * Õ¡∂π¡–±Ì
  */
 public class TodoListFragment extends BaseFragment {
-	ArrayList<ToastEntity> toastList;
+	ArrayList<TomatoEntity> toastList;
 	TodoListAdapter mAdapter;
 	ListView lv_list;
 
