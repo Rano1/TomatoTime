@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <View
+        android:id="@+id/dim_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.8"
+        android:background="#ff000000" />
+
+    <RelativeLayout
+        android:id="@+id/edit_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/list_view_background"
+        android:clickable="false"
+        android:padding="10.0dip" >
+
+        <CheckBox
+            android:id="@+id/checkBox_cir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="left"
+            android:button="@drawable/cir_checkbox"
+            android:checked="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:paddingLeft="5.0dip" />
+
+        <AutoCompleteTextView
+            android:id="@+id/edit_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:layout_toRightOf="@id/checkBox_cir"
+            android:background="@android:color/transparent"
+            android:longClickable="false"
+            android:singleLine="true"
+            android:textSize="16.0sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

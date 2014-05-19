@@ -12,11 +12,11 @@ public class TomatoEntity implements Serializable {
 	/** 土豆内容 */
 	public String content;
 	/** 土豆是否置顶 */
-	public Boolean isTop;
+	public Long isTop;
 	/** 土豆是否完成 */
-	public Boolean isFinished;
+	public Long isFinished;
 	/** 土豆是否重要 */
-	public Boolean isImportant;
+	public Long isImportant;
 
 	public Integer getId() {
 		return id;
@@ -34,27 +34,27 @@ public class TomatoEntity implements Serializable {
 		this.content = content;
 	}
 
-	public Boolean getIsTop() {
+	public Long getIsTop() {
 		return isTop;
 	}
 
-	public void setIsTop(Boolean isTop) {
+	public void setIsTop(Long isTop) {
 		this.isTop = isTop;
 	}
 
-	public Boolean getIsFinished() {
+	public Long getIsFinished() {
 		return isFinished;
 	}
 
-	public void setIsFinished(Boolean isFinished) {
+	public void setIsFinished(Long isFinished) {
 		this.isFinished = isFinished;
 	}
 
-	public Boolean getIsImportant() {
+	public Long getIsImportant() {
 		return isImportant;
 	}
 
-	public void setIsImportant(Boolean isImportant) {
+	public void setIsImportant(Long isImportant) {
 		this.isImportant = isImportant;
 	}
 

@@ -232,7 +232,7 @@ containing a value of this type.
     }
     public static final class id {
         public static final int action_bar=0x7f050004;
-        public static final int action_settings=0x7f05003f;
+        public static final int action_settings=0x7f050042;
         public static final int actionbar_shadow=0x7f050005;
         public static final int activity_running_scroll_view=0x7f050009;
         public static final int activity_running_today_pomo=0x7f050016;
@@ -246,6 +246,9 @@ containing a value of this type.
         public static final int checkBox_cir=0x7f050026;
         public static final int checkBox_pin=0x7f050032;
         public static final int click_tip_tv=0x7f050015;
+        public static final int dim_view=0x7f05003f;
+        public static final int edit_text=0x7f050041;
+        public static final int edit_view=0x7f050040;
         public static final int finished_todo_empty_layout=0x7f050020;
         public static final int fragment_todo=0x7f050023;
         public static final int history_empty_layout=0x7f050021;
@@ -317,6 +320,7 @@ containing a value of this type.
         public static final int list_row_todolist_item=0x7f03000d;
         public static final int process_actionbar=0x7f03000e;
         public static final int refresh_footer=0x7f03000f;
+        public static final int view_fake_listview=0x7f030010;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;

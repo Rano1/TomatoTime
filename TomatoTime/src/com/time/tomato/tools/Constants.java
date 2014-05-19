@@ -21,9 +21,9 @@ public class Constants {
 			TomatoEntity toast = new TomatoEntity();
 			toast.setId(i + 1);
 			toast.setContent("ÄÚÈİ" + i);
-			toast.setIsFinished(false);
-			toast.setIsTop(false);
-			toast.setIsImportant(false);
+			toast.setIsFinished(0L);
+			toast.setIsTop(0L);
+			toast.setIsImportant(0L);
 			list.add(toast);
 		}
 		return list;

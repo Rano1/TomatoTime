@@ -52,9 +52,9 @@ public class TodoListAdapter extends BaseAdapter {
 		TextView textView = (TextView)view.findViewById(R.id.textView);
 		View important_color = (View)view.findViewById(R.id.important_color);
 		
-		TomatoEntity toast = getItem(position);
-		textView.setText(toast.getContent());
-		if(toast.getIsImportant()){
+		TomatoEntity tomato = getItem(position);
+		textView.setText(tomato.getContent());
+		if(tomato.getIsImportant() == 1){
 			important_color.setVisibility(View.VISIBLE);
 		}else{
 			important_color.setVisibility(View.GONE);
