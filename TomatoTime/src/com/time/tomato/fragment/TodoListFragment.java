@@ -54,10 +54,10 @@ public class TodoListFragment extends BaseFragment {
 	}
 
 	private void setList() {
-		View view_footer = LayoutInflater.from(activity).inflate(R.layout.view_fake_listview, null);
-		AutoCompleteTextView edit_text = (AutoCompleteTextView)view_footer.findViewById(R.id.edit_text);
-		edit_text.setHint("增加新土豆");
-		lv_list.addFooterView(view_footer);
+//		View view_footer = LayoutInflater.from(activity).inflate(R.layout.view_fake_listview, null);
+//		AutoCompleteTextView edit_text = (AutoCompleteTextView)view_footer.findViewById(R.id.edit_text);
+//		edit_text.setHint("增加新土豆");
+//		lv_list.addFooterView(view_footer);
 		mAdapter = new TodoListAdapter(activity, tomatoList);
 		lv_list.setAdapter(mAdapter);
 	}

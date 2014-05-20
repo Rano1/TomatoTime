@@ -34,23 +34,13 @@
         app:spb_stroke_separator_length="4.0dip"
         app:spb_stroke_width="4.0dip" />
 
-    <com.time.tomato.view.PagerSlidingTabStrip
-        android:id="@+id/tabs"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/sliding_tap_height"
-        android:layout_below="@id/action_bar"
-        android:layout_marginTop="@dimen/action_bar_shadow_height"
-        android:background="#fff8f8f8" />
-
-    <com.time.tomato.view.TomatoViewPager
-        android:id="@+id/pager"
+    <FrameLayout
+        android:id="@+id/frame_content"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_below="@id/tabs" />
+        android:layout_below="@id/action_bar"
+        android:layout_marginTop="@dimen/action_bar_shadow_height" />
 
-    <!-- <com.nhaarman.supertooltips.ToolTipRelativeLayout -->
-    <!-- android:id="@+id/activity_main_tooltipRelativeLayout" -->
-    <!-- android:layout_width="fill_parent" -->
-    <!-- android:layout_height="fill_parent" /> -->
+    <include layout="@layout/view_drawer" />
 
 </RelativeLayout>
