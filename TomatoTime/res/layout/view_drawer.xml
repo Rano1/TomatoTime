@@ -48,6 +48,15 @@
                 android:padding="10dip"
                 android:text="统计"
                 android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/btn_settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="设置"
+                android:textColor="@android:color/white" />
         </LinearLayout>
     </android.support.v4.widget.DrawerLayout>
 

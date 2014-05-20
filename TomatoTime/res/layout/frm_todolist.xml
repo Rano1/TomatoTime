@@ -38,6 +38,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:padding="10dip"
+        android:clickable="true"
         android:src="@drawable/ic_action_cancel" />
 
 </RelativeLayout>

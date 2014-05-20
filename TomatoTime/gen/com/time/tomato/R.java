@@ -233,7 +233,7 @@ containing a value of this type.
     }
     public static final class id {
         public static final int action_bar=0x7f050004;
-        public static final int action_settings=0x7f050047;
+        public static final int action_settings=0x7f050048;
         public static final int actionbar_shadow=0x7f050005;
         public static final int activity_running_scroll_view=0x7f050008;
         public static final int activity_running_today_pomo=0x7f050015;
@@ -244,6 +244,7 @@ containing a value of this type.
         public static final int btn_middle=0x7f05003a;
         public static final int btn_ok=0x7f05001e;
         public static final int btn_pin=0x7f050034;
+        public static final int btn_settings=0x7f050044;
         public static final int btn_statistical=0x7f050043;
         public static final int btn_todolist=0x7f050041;
         public static final int cb_top_checked=0x7f05000b;
@@ -252,10 +253,10 @@ containing a value of this type.
         public static final int checkBox_pin=0x7f050032;
         public static final int click_tip_tv=0x7f050014;
         public static final int content_drawer_frame=0x7f050040;
-        public static final int dim_view=0x7f050044;
+        public static final int dim_view=0x7f050045;
         public static final int drawer_layout=0x7f05003f;
-        public static final int edit_text=0x7f050046;
-        public static final int edit_view=0x7f050045;
+        public static final int edit_text=0x7f050047;
+        public static final int edit_view=0x7f050046;
         public static final int finished_todo_empty_layout=0x7f05001f;
         public static final int fragment_todo=0x7f050022;
         public static final int frame_content=0x7f050007;
@@ -315,19 +316,21 @@ containing a value of this type.
         public static final int activity_finish_dialog=0x7f030002;
         public static final int activity_finished_todo=0x7f030003;
         public static final int frm_history=0x7f030004;
-        public static final int frm_statistical=0x7f030005;
-        public static final int frm_todolist=0x7f030006;
-        public static final int list_row_finished_todolist_item=0x7f030007;
-        public static final int list_row_finished_todolist_section=0x7f030008;
-        public static final int list_row_history_item=0x7f030009;
-        public static final int list_row_history_section=0x7f03000a;
-        public static final int list_row_running_item=0x7f03000b;
-        public static final int list_row_swipe_undo=0x7f03000c;
-        public static final int list_row_todolist_item=0x7f03000d;
-        public static final int process_actionbar=0x7f03000e;
-        public static final int refresh_footer=0x7f03000f;
-        public static final int view_drawer=0x7f030010;
-        public static final int view_fake_listview=0x7f030011;
+        public static final int frm_settings=0x7f030005;
+        public static final int frm_statistical=0x7f030006;
+        public static final int frm_todolist=0x7f030007;
+        public static final int list_row_finished_todolist_item=0x7f030008;
+        public static final int list_row_finished_todolist_section=0x7f030009;
+        public static final int list_row_history_item=0x7f03000a;
+        public static final int list_row_history_section=0x7f03000b;
+        public static final int list_row_running_item=0x7f03000c;
+        public static final int list_row_swipe_undo=0x7f03000d;
+        public static final int list_row_todolist_item=0x7f03000e;
+        public static final int process_actionbar=0x7f03000f;
+        public static final int refresh_footer=0x7f030010;
+        public static final int view_drawer=0x7f030011;
+        public static final int view_fake_listview=0x7f030012;
+        public static final int view_pop_add=0x7f030013;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;

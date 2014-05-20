@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import com.time.tomato.adapter.TomatoPagerAdapter;
 import com.time.tomato.base.BaseActivity;
 import com.time.tomato.fragment.HistoryFragment;
+import com.time.tomato.fragment.SettingsFragment;
 import com.time.tomato.fragment.StatisticalFragment;
 import com.time.tomato.fragment.TodoListFragment;
 import com.time.tomato.tools.Constants;
@@ -27,6 +28,7 @@ import android.view.Gravity;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.SeekBar;
 import android.widget.TextView;
 
 public class MainActivity extends FragmentActivity {
@@ -35,6 +37,7 @@ public class MainActivity extends FragmentActivity {
 	private TodoListFragment mTodoListFragment;
 	private HistoryFragment mHistoryFragment;
 	private StatisticalFragment mStatisticalFragment;
+	private SettingsFragment mSettingsFragment;
 	private SmoothProgressBar top_progressBar;
 	private View actionbar_shadow;
 	private ProcessActionBar action_bar;
@@ -64,6 +67,7 @@ public class MainActivity extends FragmentActivity {
 		TextView btn_todolist = (TextView)findViewById(R.id.btn_todolist);
 		TextView btn_history = (TextView)findViewById(R.id.btn_history);
 		TextView btn_statistical = (TextView)findViewById(R.id.btn_statistical);
+		TextView btn_settings = (TextView)findViewById(R.id.btn_settings);
 		btn_todolist.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -88,6 +92,14 @@ public class MainActivity extends FragmentActivity {
 				mDrawerLayout.closeDrawers();
 			}
 		});
+		btn_settings.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				changeFragment(mSettingsFragment);
+				mDrawerLayout.closeDrawers();
+			}
+		});
 	}
 
 	private void initFragment() {
@@ -95,6 +107,7 @@ public class MainActivity extends FragmentActivity {
 		mTodoListFragment = new TodoListFragment();
 		mHistoryFragment = new HistoryFragment();
 		mStatisticalFragment = new StatisticalFragment();
+		mSettingsFragment = new SettingsFragment();
 		changeFragment(mTodoListFragment);
 	}
 
