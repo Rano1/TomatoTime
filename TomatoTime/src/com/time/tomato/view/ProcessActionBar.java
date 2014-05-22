@@ -15,6 +15,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -22,7 +23,7 @@ public class ProcessActionBar extends LinearLayout implements OnClickListener{
 	TextView tv_countdown;
 	private ImageButton ib_right;
 	private Button btn_middle;
-	
+	private ImageView logo;
 	public ProcessActionBar(Context context) {
 		super(context);
 		init(context);
@@ -36,9 +37,11 @@ public class ProcessActionBar extends LinearLayout implements OnClickListener{
 	private void init(Context context) {
 		View view = LayoutInflater.from(context).inflate(R.layout.process_actionbar, null);
 		LayoutParams params = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
+		logo = (ImageView)view.findViewById(R.id.logo);
 		tv_countdown = (TextView)view.findViewById(R.id.tv_countdown);
 		btn_middle = (Button)view.findViewById(R.id.btn_middle);
 		ib_right = (ImageButton)view.findViewById(R.id.ib_right);
+		logo.setOnClickListener(this);
 		btn_middle.setOnClickListener(this);
 		ib_right.setOnClickListener(this);
 		addView(view,params);
@@ -52,6 +55,9 @@ public class ProcessActionBar extends LinearLayout implements OnClickListener{
 	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
+		case R.id.logo:
+			mDrawerClickListener.clickDrawer();
+			break;
 		case R.id.btn_middle:
 			getContext().startActivity(new Intent(getContext(), RunningActivity.class));
 			((Activity)getContext()).overridePendingTransition(R.anim.slide_top_in, 0);
@@ -98,5 +104,15 @@ public class ProcessActionBar extends LinearLayout implements OnClickListener{
 			ib_right.setImageResource(R.drawable.ic_action_play_red);
 		}
 		isRunning = status;
+	}
+	
+	public interface DrawerClickListener{
+		public void clickDrawer();
+	}
+	
+	public DrawerClickListener mDrawerClickListener;
+	
+	public void setDrawerClickListener(DrawerClickListener listener){
+		mDrawerClickListener = listener;
 	}
 }

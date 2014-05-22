@@ -4,30 +4,50 @@
     android:layout_height="fill_parent"
     android:background="#fff4f4f4" >
 
-    <ListView
+    <com.time.tomato.view.DragListView
         android:id="@+id/lv_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:cacheColorHint="@android:color/transparent"
-        android:scrollbars="none" >
-    </ListView>
+        android:dividerHeight="1.0dip"
+        android:divider="#ffe6e6e6"
+        android:scrollbars="none" />
 
-<!--     <com.pomotodo.views.listview.PullUpToRefreshView -->
-<!--         xmlns:android="http://schemas.android.com/apk/res/android" -->
-<!--         android:id="@+id/main_pull_refresh_view" -->
-<!--         android:layout_width="fill_parent" -->
-<!--         android:layout_height="fill_parent" -->
-<!--         android:background="#fff4f4f4" -->
-<!--         android:orientation="vertical" > -->
+    <!-- <com.pomotodo.views.listview.PullUpToRefreshView -->
+    <!-- xmlns:android="http://schemas.android.com/apk/res/android" -->
+    <!-- android:id="@+id/main_pull_refresh_view" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:background="#fff4f4f4" -->
+    <!-- android:orientation="vertical" > -->
 
-<!--         <com.haarman.listviewanimations.view.DynamicListView -->
-<!--             android:id="@+id/todo_dynamic_list_view" -->
-<!--             android:layout_width="fill_parent" -->
-<!--             android:layout_height="fill_parent" -->
-<!--             android:layout_alignParentLeft="true" -->
-<!--             android:layout_alignParentTop="true" -->
-<!--             android:divider="#ffe6e6e6" -->
-<!--             android:dividerHeight="1.0dip" /> -->
-<!--     </com.pomotodo.views.listview.PullUpToRefreshView> -->
+
+    <!-- <com.haarman.listviewanimations.view.DynamicListView -->
+    <!-- android:id="@+id/todo_dynamic_list_view" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:layout_alignParentLeft="true" -->
+    <!-- android:layout_alignParentTop="true" -->
+    <!-- android:divider="#ffe6e6e6" -->
+    <!-- android:dividerHeight="1.0dip" /> -->
+    <!-- </com.pomotodo.views.listview.PullUpToRefreshView> -->
+
+    <com.time.tomato.view.rotatemenu.ArcMenu
+        android:id="@+id/arc_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:id="@+id/btn_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:padding="10dip"
+        android:src="@drawable/ic_action_cancel"
+        android:visibility="gone" />
 
 </RelativeLayout>
