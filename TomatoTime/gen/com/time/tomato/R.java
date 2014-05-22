@@ -593,7 +593,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.time.tomato:spbStyle
+          @attr name android:spbStyle
         */
         public static final int SmoothProgressBar_spbStyle = 0;
         /**
@@ -603,7 +603,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.time.tomato:spb_background
+          @attr name android:spb_background
         */
         public static final int SmoothProgressBar_spb_background = 13;
         /**
@@ -618,7 +618,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.time.tomato:spb_color
+          @attr name android:spb_color
         */
         public static final int SmoothProgressBar_spb_color = 1;
         /**
@@ -628,7 +628,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.time.tomato:spb_colors
+          @attr name android:spb_colors
         */
         public static final int SmoothProgressBar_spb_colors = 11;
         /**
@@ -642,7 +642,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.time.tomato:spb_generate_background_with_colors
+          @attr name android:spb_generate_background_with_colors
         */
         public static final int SmoothProgressBar_spb_generate_background_with_colors = 14;
         /**
@@ -661,7 +661,7 @@ containing a value of this type.
 <tr><td><code>spb_interpolator_acceleratedecelerate</code></td><td>2</td><td></td></tr>
 <tr><td><code>spb_interpolator_decelerate</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name com.time.tomato:spb_interpolator
+          @attr name android:spb_interpolator
         */
         public static final int SmoothProgressBar_spb_interpolator = 8;
         /**
@@ -675,7 +675,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.time.tomato:spb_mirror_mode
+          @attr name android:spb_mirror_mode
         */
         public static final int SmoothProgressBar_spb_mirror_mode = 10;
         /**
@@ -689,7 +689,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.time.tomato:spb_progressiveStart_activated
+          @attr name android:spb_progressiveStart_activated
         */
         public static final int SmoothProgressBar_spb_progressiveStart_activated = 12;
         /**
@@ -703,7 +703,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.time.tomato:spb_progressiveStart_speed
+          @attr name android:spb_progressiveStart_speed
         */
         public static final int SmoothProgressBar_spb_progressiveStart_speed = 6;
         /**
@@ -717,7 +717,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.time.tomato:spb_progressiveStop_speed
+          @attr name android:spb_progressiveStop_speed
         */
         public static final int SmoothProgressBar_spb_progressiveStop_speed = 7;
         /**
@@ -731,7 +731,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.time.tomato:spb_reversed
+          @attr name android:spb_reversed
         */
         public static final int SmoothProgressBar_spb_reversed = 9;
         /**
@@ -745,7 +745,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.time.tomato:spb_sections_count
+          @attr name android:spb_sections_count
         */
         public static final int SmoothProgressBar_spb_sections_count = 4;
         /**
@@ -759,7 +759,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.time.tomato:spb_speed
+          @attr name android:spb_speed
         */
         public static final int SmoothProgressBar_spb_speed = 5;
         /**
@@ -775,7 +775,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.time.tomato:spb_stroke_separator_length
+          @attr name android:spb_stroke_separator_length
         */
         public static final int SmoothProgressBar_spb_stroke_separator_length = 3;
         /**
@@ -791,7 +791,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.time.tomato:spb_stroke_width
+          @attr name android:spb_stroke_width
         */
         public static final int SmoothProgressBar_spb_stroke_width = 2;
     };
