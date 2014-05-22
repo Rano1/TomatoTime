@@ -31,14 +31,22 @@
     <!-- android:dividerHeight="1.0dip" /> -->
     <!-- </com.pomotodo.views.listview.PullUpToRefreshView> -->
 
+    <com.time.tomato.view.rotatemenu.ArcMenu
+        android:id="@+id/arc_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
     <ImageView
         android:id="@+id/btn_menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:padding="10dip"
         android:clickable="true"
-        android:src="@drawable/ic_action_cancel" />
+        android:padding="10dip"
+        android:src="@drawable/ic_action_cancel"
+        android:visibility="gone" />
 
 </RelativeLayout>

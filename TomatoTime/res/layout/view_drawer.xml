@@ -1,63 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_below="@id/action_bar"
-    android:orientation="vertical" >
+    android:layout_marginTop="@dimen/action_bar_shadow_height" >
 
-    <android.support.v4.widget.DrawerLayout
-        android:id="@+id/drawer_layout"
+    <FrameLayout
+        android:id="@+id/content_drawer_frame"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent" />
 
-        <FrameLayout
-            android:id="@+id/content_drawer_frame"
+    <LinearLayout
+        android:id="@+id/ll_view_drawer"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="#C0C0C0"
+        android:clickable="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/btn_todolist"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="土豆列表"
+            android:textColor="@android:color/white" />
 
-        <LinearLayout
-            android:layout_width="160dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="start"
-            android:background="#C0C0C0"
-            android:orientation="vertical" >
+        <TextView
+            android:id="@+id/btn_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="历史"
+            android:textColor="@android:color/white" />
+        <TextView
+            android:id="@+id/btn_timeline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="时间轴"
+            android:textColor="@android:color/white" />
 
-            <TextView
-                android:id="@+id/btn_todolist"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="10dip"
-                android:text="土豆列表"
-                android:textColor="@android:color/white" />
+        <TextView
+            android:id="@+id/btn_statistical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="统计"
+            android:textColor="@android:color/white" />
 
-            <TextView
-                android:id="@+id/btn_history"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="10dip"
-                android:text="历史"
-                android:textColor="@android:color/white" />
+        <TextView
+            android:id="@+id/btn_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="设置"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
 
-            <TextView
-                android:id="@+id/btn_statistical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="10dip"
-                android:text="统计"
-                android:textColor="@android:color/white" />
-
-            <TextView
-                android:id="@+id/btn_settings"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="10dip"
-                android:text="设置"
-                android:textColor="@android:color/white" />
-        </LinearLayout>
-    </android.support.v4.widget.DrawerLayout>
-
-</LinearLayout>
+</android.support.v4.widget.DrawerLayout>
