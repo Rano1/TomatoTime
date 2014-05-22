@@ -4,13 +4,14 @@
     android:layout_height="fill_parent"
     android:background="#fff4f4f4" >
 
-    <ListView
+    <com.time.tomato.view.DragListView
         android:id="@+id/lv_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:cacheColorHint="@android:color/transparent"
-        android:scrollbars="none" >
-    </ListView>
+        android:dividerHeight="1.0dip"
+        android:divider="#ffe6e6e6"
+        android:scrollbars="none" />
 
     <!-- <com.pomotodo.views.listview.PullUpToRefreshView -->
     <!-- xmlns:android="http://schemas.android.com/apk/res/android" -->

@@ -34,12 +34,12 @@
         app:spb_stroke_separator_length="4.0dip"
         app:spb_stroke_width="4.0dip" />
 
-<!--     <FrameLayout -->
-<!--         android:id="@+id/frame_content" -->
-<!--         android:layout_width="fill_parent" -->
-<!--         android:layout_height="fill_parent" -->
-<!--         android:layout_below="@id/action_bar" -->
-<!--         android:layout_marginTop="@dimen/action_bar_shadow_height" /> -->
+    <!-- <FrameLayout -->
+    <!-- android:id="@+id/frame_content" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:layout_below="@id/action_bar" -->
+    <!-- android:layout_marginTop="@dimen/action_bar_shadow_height" /> -->
 
     <include layout="@layout/view_drawer" />
 

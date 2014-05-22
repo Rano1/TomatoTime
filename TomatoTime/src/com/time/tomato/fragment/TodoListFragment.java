@@ -36,6 +36,7 @@ import com.time.tomato.db.DBHelper;
 import com.time.tomato.db.DBUtil;
 import com.time.tomato.entity.TomatoEntity;
 import com.time.tomato.tools.Constants;
+import com.time.tomato.view.DragListView;
 import com.time.tomato.view.rotatemenu.ArcMenu;
 
 /**
@@ -45,7 +46,7 @@ public class TodoListFragment extends BaseFragment {
 	private final static String TAG = "TodoListFragment";
 	ArrayList<TomatoEntity> tomatoList;
 	TodoListAdapter mAdapter;
-	ListView lv_list;
+	DragListView lv_list;
 	ImageView btn_menu;
 	/** Ô²»·²Ëµ¥ */
 	ArcMenu arc_menu;
@@ -71,7 +72,7 @@ public class TodoListFragment extends BaseFragment {
 			Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		view = LayoutInflater.from(activity).inflate(R.layout.frm_todolist,null);
-		lv_list = (ListView) view.findViewById(R.id.lv_list);
+		lv_list = (DragListView) view.findViewById(R.id.lv_list);
 		arc_menu = (ArcMenu)view.findViewById(R.id.arc_menu);
 		btn_menu = (ImageView) view.findViewById(R.id.btn_menu);
 		btn_menu.setOnClickListener(new OnClickListener() {
