@@ -6,10 +6,22 @@
     android:gravity="center_horizontal"
     android:orientation="vertical" >
 
-    <com.time.tomato.view.wheel.WheelView
-        android:id="@+id/wheelView_time"
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.time.tomato.view.wheel.WheelView
+            android:id="@+id/wheelView_minutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.time.tomato.view.wheel.WheelView
+            android:id="@+id/wheelView_seconds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip" />
+    </LinearLayout>
 
     <Button
         android:id="@+id/btn_wheel_confirm"

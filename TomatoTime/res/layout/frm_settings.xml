@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dip"
-            android:background="@android:color/white"
+            android:background="#F7F7F7"
             android:focusable="true"
             android:gravity="left|center_vertical" />
 
@@ -41,7 +41,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dip"
-            android:background="@android:color/white"
+            android:background="#F7F7F7"
             android:focusable="true"
             android:gravity="left|center_vertical" />
     </LinearLayout>

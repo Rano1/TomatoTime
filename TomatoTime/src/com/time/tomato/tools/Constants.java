@@ -38,7 +38,7 @@ public class Constants {
 	public final static String[] array_mouth = new String[]{"一月" , "二月", "三月", "一月", "一月", "一月", "一月", "一月", "一月", "一月"}; 
 	
 	/** wheel滚轮的内容,时间 */
-	public final static String[] array_time = new String[]{"0" , "5", "10", "15", "20", "25", "30", "35", "40", "45", "50", "55"}; 
+	public final static String[] array_time = new String[]{"00" , "05", "10", "15", "20", "25", "30", "35", "40", "45", "50", "55"}; 
 	
 	
 }
