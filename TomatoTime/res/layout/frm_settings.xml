@@ -22,22 +22,35 @@
             android:layout_height="wrap_content"
             android:text="工作时间" />
 
-        <EditText
+        <Button
+            android:id="@+id/edt_worktime"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dip"
-            android:focusable="true" />
+            android:background="@android:color/white"
+            android:focusable="true"
+            android:gravity="left|center_vertical" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="休息时间" />
 
-        <EditText
+        <Button
+            android:id="@+id/edt_resttime"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dip"
-            android:focusable="true" />
+            android:background="@android:color/white"
+            android:focusable="true"
+            android:gravity="left|center_vertical" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="保存" />
 
 </LinearLayout>

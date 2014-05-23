@@ -211,6 +211,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int sliding_tap_height=0x7f070011;
         public static final int spb_default_stroke_separator_length=0x7f070000;
         public static final int spb_default_stroke_width=0x7f070001;
+        public static final int wheel_textsize=0x7f070012;
     }
     public static final class drawable {
         public static final int actionbar_shadow=0x7f020000;
@@ -264,64 +265,70 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int segment_radio_white_left_press=0x7f020030;
         public static final int segment_radio_white_right=0x7f020031;
         public static final int segment_radio_white_right_press=0x7f020032;
-        public static final int widget_preview=0x7f020033;
+        public static final int wheel_bg=0x7f020033;
+        public static final int wheel_val=0x7f020034;
+        public static final int widget_preview=0x7f020035;
     }
     public static final class id {
         public static final int action_bar=0x7f050004;
-        public static final int action_settings=0x7f050050;
+        public static final int action_settings=0x7f050055;
         public static final int actionbar_shadow=0x7f050005;
         public static final int activity_running_scroll_view=0x7f050007;
         public static final int activity_running_today_pomo=0x7f050014;
-        public static final int arc_menu=0x7f050026;
+        public static final int arc_menu=0x7f050029;
         public static final int background=0x7f050019;
-        public static final int btn_add_cancel=0x7f05004e;
-        public static final int btn_add_confirm=0x7f05004f;
-        public static final int btn_history=0x7f050047;
+        public static final int btn_add_cancel=0x7f050051;
+        public static final int btn_add_confirm=0x7f050052;
+        public static final int btn_history=0x7f05004a;
         public static final int btn_later=0x7f05001c;
-        public static final int btn_menu=0x7f050027;
-        public static final int btn_middle=0x7f05003e;
+        public static final int btn_menu=0x7f05002a;
+        public static final int btn_middle=0x7f050041;
         public static final int btn_ok=0x7f05001d;
-        public static final int btn_pin=0x7f050038;
-        public static final int btn_settings=0x7f05004a;
-        public static final int btn_statistical=0x7f050049;
-        public static final int btn_timeline=0x7f050048;
-        public static final int btn_todolist=0x7f050046;
+        public static final int btn_pin=0x7f05003b;
+        public static final int btn_save=0x7f050026;
+        public static final int btn_settings=0x7f05004d;
+        public static final int btn_statistical=0x7f05004c;
+        public static final int btn_timeline=0x7f05004b;
+        public static final int btn_todolist=0x7f050049;
+        public static final int btn_wheel_confirm=0x7f050054;
         public static final int cb_top_checked=0x7f05000a;
         public static final int cb_top_unchecked=0x7f05000d;
-        public static final int checkBox_cir=0x7f050029;
-        public static final int checkBox_pin=0x7f050035;
+        public static final int checkBox_cir=0x7f05002c;
+        public static final int checkBox_pin=0x7f050038;
         public static final int click_tip_tv=0x7f050013;
-        public static final int content_drawer_frame=0x7f050044;
+        public static final int content_drawer_frame=0x7f050047;
         public static final int control_hint=0x7f050021;
         public static final int control_layout=0x7f050020;
-        public static final int dim_view=0x7f05004b;
-        public static final int drawer_layout=0x7f050043;
-        public static final int edit_text=0x7f05004d;
-        public static final int edit_view=0x7f05004c;
+        public static final int dim_view=0x7f05004e;
+        public static final int drawer_layout=0x7f050046;
+        public static final int edit_text=0x7f050050;
+        public static final int edit_view=0x7f05004f;
+        public static final int edt_resttime=0x7f050025;
+        public static final int edt_worktime=0x7f050024;
         public static final int finished_todo_empty_layout=0x7f05001e;
-        public static final int fragment_todo=0x7f050024;
+        public static final int fragment_todo=0x7f050027;
         public static final int history_empty_layout=0x7f050022;
-        public static final int ib_right=0x7f05003b;
-        public static final int ib_setting=0x7f05003c;
+        public static final int ib_right=0x7f05003e;
+        public static final int ib_setting=0x7f05003f;
         public static final int imageView=0x7f050016;
-        public static final int important_color=0x7f050037;
+        public static final int important_color=0x7f05003a;
         public static final int item_layout=0x7f05001f;
-        public static final int layout_row=0x7f050028;
+        public static final int layout_row=0x7f05002b;
         public static final int layout_submit_tip=0x7f050011;
-        public static final int linearLayout=0x7f05002e;
+        public static final int linearLayout=0x7f050031;
         public static final int linearLayout2=0x7f05000f;
-        public static final int ll_view_drawer=0x7f050045;
-        public static final int logo=0x7f05003d;
-        public static final int lv_list=0x7f050025;
-        public static final int main_layout=0x7f05002d;
+        public static final int ll_view_drawer=0x7f050048;
+        public static final int logo=0x7f050040;
+        public static final int lv_list=0x7f050028;
+        public static final int main_layout=0x7f050030;
         public static final int no_record_layout=0x7f050015;
-        public static final int processbar=0x7f050039;
-        public static final int pull_to_load_image=0x7f050041;
-        public static final int pull_to_load_progress=0x7f050040;
-        public static final int pull_to_load_text=0x7f050042;
-        public static final int pull_to_refresh_header=0x7f05003f;
-        public static final int right_btn_layout=0x7f05003a;
-        public static final int right_high_light=0x7f050032;
+        public static final int processbar=0x7f05003c;
+        public static final int pull_to_load_image=0x7f050044;
+        public static final int pull_to_load_progress=0x7f050043;
+        public static final int pull_to_load_text=0x7f050045;
+        public static final int pull_to_refresh_header=0x7f050042;
+        public static final int right_btn_layout=0x7f05003d;
+        public static final int right_high_light=0x7f050035;
         public static final int scrollView=0x7f050008;
         public static final int spb_interpolator_accelerate=0x7f050000;
         public static final int spb_interpolator_acceleratedecelerate=0x7f050002;
@@ -330,24 +337,25 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int textView=0x7f050012;
         public static final int textView2=0x7f050017;
         public static final int textView3=0x7f050018;
-        public static final int todo_delete=0x7f05002a;
+        public static final int todo_delete=0x7f05002d;
         public static final int top_layout_checked=0x7f050009;
         public static final int top_layout_unchecked=0x7f05000c;
         public static final int top_progressBar=0x7f050006;
         public static final int top_tv_checked=0x7f05000b;
         public static final int top_tv_unchecked=0x7f05000e;
         public static final int tv_countdown=0x7f050010;
-        public static final int tv_from=0x7f05002f;
-        public static final int tv_list_item_content=0x7f050036;
+        public static final int tv_from=0x7f050032;
+        public static final int tv_list_item_content=0x7f050039;
         public static final int tv_not_find=0x7f050023;
-        public static final int tv_pomo_description=0x7f050031;
-        public static final int tv_section_row=0x7f05002b;
-        public static final int tv_section_row_right=0x7f05002c;
+        public static final int tv_pomo_description=0x7f050034;
+        public static final int tv_section_row=0x7f05002e;
+        public static final int tv_section_row_right=0x7f05002f;
         public static final int tv_title=0x7f05001a;
-        public static final int tv_to=0x7f050030;
+        public static final int tv_to=0x7f050033;
         public static final int tv_update_msg=0x7f05001b;
-        public static final int undo_row_texttv=0x7f050033;
-        public static final int undo_row_undobutton=0x7f050034;
+        public static final int undo_row_texttv=0x7f050036;
+        public static final int undo_row_undobutton=0x7f050037;
+        public static final int wheelView_time=0x7f050053;
     }
     public static final class integer {
         public static final int spb_default_interpolator=0x7f080001;
@@ -376,6 +384,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int view_drawer=0x7f030013;
         public static final int view_fake_listview=0x7f030014;
         public static final int view_pop_add=0x7f030015;
+        public static final int view_wheel_time=0x7f030016;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
@@ -599,6 +608,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /**  Application theme. 
          */
         public static final int AppTheme=0x7f0b0001;
+        public static final int dialog_wheel=0x7f0b0002;
     }
     public static final class styleable {
         /** Attributes that can be used with a ArcLayout.
